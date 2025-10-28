@@ -181,4 +181,4 @@ cython_debug/
 .cursorindexingignore
 
 #Bat
-*.bat
+run.bat

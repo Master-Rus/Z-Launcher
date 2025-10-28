@@ -1,0 +1,24 @@
+{
+  "manifest": {
+    "name": "Dark",
+    "description": "The default launcher theme",
+    "author": "Master-Rus",
+    "license": "MIT"
+  },
+  "palette": {
+    "Window": "#353535",
+    "WindowText": "#ffffff",
+    "Base": "#191919",
+    "AlternateBase": "#353535",
+    "ToolTipBase": "#ffffff",
+    "ToolTipText": "#ffffff",
+    "Text": "#ffffff",
+    "Button": "#353535",
+    "ButtonText": "#ffffff",
+    "BrightText": "#ff0000",
+    "Link": "#2a82da",
+    "Highlight": "#4bb679",
+    "HighlightedText": "#ffffff"
+  },
+  "background_image_base64": ""
+}

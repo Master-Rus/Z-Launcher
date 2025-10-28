@@ -1,2 +1,2 @@
-# Zapret-Launcher
+# Z-Launcher
 All in one. Easy start.
