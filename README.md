@@ -1,6 +1,8 @@
 <div align="center">
 
 # Z-Launcher
+# <img src="https://github.com/Master-Rus/Z-Launcher/blob/main/ui/screen.png" />
+
 
 Альтернатива https://github.com/bol-van/zapret-win-bundle  
 Альтернатива-2 https://github.com/Flowseal/zapret-discord-youtube  
@@ -23,7 +25,7 @@
 > [!IMPORTANT]
 > Все бинарные файлы в папке [`bin`](./zapret/start-service/bin) взяты из [zapret-win-bundle/zapret-winws](https://github.com/bol-van/zapret-win-bundle/tree/master/zapret-winws). Вы можете это проверить с помощью хэшей/контрольных сумм. Проверяйте, что запускаете, используя сборки из интернета!
 
-## ⚙️Использование
+## ⚙️Использование(Easy)
 
 1. Включите Secure DNS. В Chrome - "Использовать безопасный DNS", и выбрать поставщика услуг DNS (выбрать вариант, отличный от поставщика по умолчанию). В Firefox - "Включить DNS через HTTPS, используя: Максимальную защиту"
     * В **Windows 11** поддерживается включение Secure DNS прямо в настройках - [инструкция тут](https://www.howtogeek.com/765940/how-to-enable-dns-over-https-on-windows-11/). Рекомендуется, если вы пользуетесь Windows 11
@@ -33,6 +35,28 @@
 3. Запустите Z-Launcher
 
 4. Выберите вариант обхода и нажмите "START"
+
+## ⚙️Использование(Ручная сборка)
+
+1. Установите [Python(3.13)](https://www.python.org/downloads/) или более поздние версии.
+
+2. Обновите PiP 
+```cmd
+python -m pip install --upgrade pip
+```
+3. Установите PyInstaller
+```cmd
+python -m pip install pyinstaller
+```
+4. Установите модули
+```cmd
+pip install -r requirements.txt
+```
+5. Соберите проект
+```cmd
+pyinstaller --noconsole --onefile --icon=launcher_icon.ico --add-data "themes;themes" --add-data "launcher_icon.ico;." --add-data "zapret;zapret" --add-data "version.json;." main.py
+```
+6. Запустите Z-Launcher из .\dist от имени Администратора
 
 ## ☑️Распространенные вопросы и проблемы
 
@@ -53,6 +77,7 @@
 ### Требуется цифровая подпись драйвера WinDivert (Windows 7)
 
 - Замените файлы `WinDivert.dll` и `WinDivert64.sys` в папке [`bin`](./zapret/start-service/bin) на одноименные из [zapret-win-bundle/win7](https://github.com/bol-van/zapret-win-bundle/tree/master/win7)
+- Пересоберите приложение
 
 ### При нажатии на STOP, WinDivert остается в службах
 
