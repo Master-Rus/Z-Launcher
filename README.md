@@ -121,6 +121,6 @@ sc delete название_из_первого_шага
 
 ## ⚖️Лицензирование
 
-Проект распространяется на условиях лицензии [MIT](https://github.com/Flowseal/zapret-discord-youtube/blob/main/LICENSE.txt)
+Проект распространяется на условиях лицензии [GPL-3.0 license](https://github.com/Master-Rus/Z-Launcher/blob/main/LICENSE)
 
 💖 Отдельная благодарность разработчику [zapret](https://github.com/bol-van/zapret) - [bol-van](https://github.com/bol-van)
