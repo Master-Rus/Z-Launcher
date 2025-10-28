@@ -58,6 +58,8 @@ pyinstaller --noconsole --onefile --icon=launcher_icon.ico --add-data "themes;th
 ```
 6. Запустите Z-Launcher из .\dist от имени Администратора
 
+7. Выполните 1-й, затем 4-й пункт из [⚙️Использование(Easy)](https://github.com/Master-Rus/Z-Launcher#%EF%B8%8F%D0%B8%D1%81%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5easy)
+
 ## ☑️Распространенные вопросы и проблемы
 
 ### Обход не работает / перестал работать
