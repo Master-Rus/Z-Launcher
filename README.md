@@ -54,7 +54,7 @@ pip install -r requirements.txt
 ```
 5. Соберите проект
 ```cmd
-pyinstaller --noconsole --onefile --icon=launcher_icon.ico --add-data "themes;themes" --add-data "launcher_icon.ico;." --add-data "zapret;zapret" --add-data "version.json;." main.py
+pyinstaller --noconsole --onefile --icon=launcher_icon.ico --add-data "themes;themes" --add-data "launcher_icon.ico;." --add-data "zapret;zapret" --add-data "version.json;." Launcher.py
 ```
 6. Запустите Z-Launcher из .\dist от имени Администратора
 
