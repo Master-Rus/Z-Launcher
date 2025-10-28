@@ -32,7 +32,7 @@
 
 2. Загрузите Z-Launcher.exe со [страницы последнего релиза](https://github.com/Master-Rus/Z-Launcher/releases/latest)
 
-3. Запустите Z-Launcher
+3. Запустите ранее скачанный Z-Launcher.exe
 
 4. Выберите вариант обхода и нажмите "START"
 
