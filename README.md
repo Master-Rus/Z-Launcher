@@ -28,7 +28,7 @@
 1. Включите Secure DNS. В Chrome - "Использовать безопасный DNS", и выбрать поставщика услуг DNS (выбрать вариант, отличный от поставщика по умолчанию). В Firefox - "Включить DNS через HTTPS, используя: Максимальную защиту"
     * В **Windows 11** поддерживается включение Secure DNS прямо в настройках - [инструкция тут](https://www.howtogeek.com/765940/how-to-enable-dns-over-https-on-windows-11/). Рекомендуется, если вы пользуетесь Windows 11
 
-2. Загрузите Z-Launcher со [страницы последнего релиза](https://github.com/Master-Rus/Z-Launcher/releases/latest)
+2. Загрузите Z-Launcher.exe со [страницы последнего релиза](https://github.com/Master-Rus/Z-Launcher/releases/latest)
 
 3. Запустите Z-Launcher
 
