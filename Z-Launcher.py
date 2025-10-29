@@ -10,6 +10,10 @@ def is_admin():
     except:
         return False
 
+def run_as_admin():
+    ctypes.windll.shell32.ShellExecuteW(None, "runas", sys.executable, " ".join(sys.argv), None, 1)
+    sys.exit()
+
 def resource_path(relative_path):
     try:
         base_path = sys._MEIPASS
@@ -19,11 +23,8 @@ def resource_path(relative_path):
 
 if __name__ == "__main__":
     if not is_admin():
-        # Перезапуск программы с правами администратора
-        ctypes.windll.shell32.ShellExecuteW(
-            None, "runas", sys.executable, " ".join(sys.argv), None, 1
-        )
-        sys.exit(0)
+        run_as_admin()
+        sys.exit()
     app = QApplication(sys.argv)
 
     icon_path = resource_path("launcher_icon.ico")

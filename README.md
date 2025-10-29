@@ -1,7 +1,7 @@
 <div align="center">
 
 # Z-Launcher
-# <img src="https://github.com/Master-Rus/Z-Launcher/blob/main/ui/screen.png" />
+# <img src="https://raw.githubusercontent.com/Master-Rus/Z-Launcher/refs/heads/main/ui/screen.png"/>
 
 
 Альтернатива https://github.com/bol-van/zapret-win-bundle  
@@ -54,9 +54,9 @@ pip install -r requirements.txt
 ```
 5. Соберите проект
 ```cmd
-pyinstaller --noconsole --onefile --icon=launcher_icon.ico --add-data "themes;themes" --add-data "launcher_icon.ico;." --add-data "zapret;zapret" --add-data "version.json;." Launcher.py
+pyinstaller --noconfirm --noconsole --onefile --windowed --icon=launcher_icon.ico --add-data  "launcher_icon.ico;." --add-data "version.json;." --add-data "network;network" --add-data "section;section" --add-data "services;services" --add-data "themes;themes" --add-data "ui;ui" --add-data "zapret;zapret" Z-Launcher.py
 ```
-6. Запустите Z-Launcher из .\dist от имени Администратора
+6. Запустите **_Z-Launcher.exe_** из .\dist **от имени Администратора**
 
 7. Выполните 1-й, затем 4-й пункт из [⚙️Использование(Easy)](https://github.com/Master-Rus/Z-Launcher#%EF%B8%8F%D0%B8%D1%81%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5easy)
 
