@@ -182,3 +182,7 @@ cython_debug/
 
 #Bat
 run.bat
+
+#IDE
+.idea/
+.gigaide/
